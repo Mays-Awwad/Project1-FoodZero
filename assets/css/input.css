@@ -1,0 +1,49 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rufina:wght@400;700&display=swap');
+
+@theme{
+    --color-background:#233000;
+    --color-primary:#000000;
+    --color-paragraph:#4D4D4D;
+    --color-secondary:#FFFFFF;
+    --color-background-section:#EBF0E4;
+
+    --font-heading:"Rufina", serif;
+    --font-body:"Lato", sans-serif;
+
+}
+
+@layer base{
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    h1,h2,h3,h4{
+        @apply  font-heading;
+    }
+    p{
+        @apply text-paragraph;
+    }
+}
+
+
+@utility container{
+    @apply mx-auto;
+    padding-inline:1rem;
+    
+}
+@utility row{
+    @apply flex flex-row items-center gap-4;
+}
+@utility bg-x-y-md{
+    /*background-position:650px -40px;*/
+    background-position:100% 30%;
+
+}
+
+@utility bg-x-y-sm{
+    /*background-position:650px -40px;*/
+    background-position:-100% 2%;
+
+}
