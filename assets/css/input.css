@@ -45,11 +45,13 @@
 @utility bg-x-y-sm{
     /*background-position:650px -40px;*/
     background-position:-100% 2%;
+}
+@utility input{
+    @apply  py-4 px-5 placeholder:text-primary placeholder:font-body border;
+}
+
+.hero-contact{
+    background-image: url('./../imgs/Contact/hero.png');
+}
 
     
-}
-/*
-.hero-menu{
-    background-image: url('./../imgs/Menu/hero.png');
-}
-    */
