@@ -1,12 +1,12 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.2.1",
+    "bootstrap": "^5.3.8",
     "tailwindcss": "^4.2.1"
   },
   "name": "foodzero",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
