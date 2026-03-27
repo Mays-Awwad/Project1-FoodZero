@@ -55,11 +55,14 @@
 .hero-contact{
     background-image: url('./../imgs/Contact/hero.png');
 }
+
 .single{
     background-image:url('./../imgs/SinglePortfolio/hero.png') ;
-
 }
 
+.post{
+    background-image: url('./../imgs/SinglePost/img3.png');
+}
 
 
     
